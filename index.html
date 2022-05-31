@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VA Corporation</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./imgs/favicon.ico">
+  <link rel="apple-touch-icon" href="./imgs/favicon.ico">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/smooth-scrollbar.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- js -->
+  <script src="./js/all.min.js"></script>
+</head>
+<body>  
+  <!-- header -->
+  <header>
+    <div class="inr">
+      <!-- logo -->
+      <h1 class="logo"><a href="index.html">
+        <span class="blind">VA Corporation</span>
+      </a></h1>
+
+      <!-- gnb -->
+      <nav class="gnb">
+        <ul class="depth_01">
+          <li>
+            <a href="">ABOUT</a>
+            <ul class="depth_02">
+              <li><a href="">OVERVIEW</a></li>
+              <li><a href="">SERVICES</a></li>
+              <li><a href="">TEAM</a></li>
+              <li><a href="">STUDIO INFRA</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">WORKS</a>
+          </li>
+          <li>
+            <a href="">NEWS</a>
+          </li>
+          <li>
+            <a href="">CAREERS</a>
+            <ul class="depth_02">
+              <li><a href="">OVERVIEW</a></li>
+              <li><a href="">HIRING</a></li>
+              <li><a href="">JOB APPLICATION</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- btn_open_menu -->
+      <button class="btn_open_menu">
+        <span class="btn_open_menu_wrap">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </span>
+      </button>
+
+      <!-- menu_area -->
+      <div class="menu_area">
+        <div class="menu_wrap">
+          <!-- overlay_menu -->
+          <div class="overlay_menu">
+            <ul class="depth_01">
+              <li><a href="" class="split_line split_word">Home</a></li>
+              <li>
+                <a href="" class="split_line split_word">About</a>
+                <ul class="depth_02">
+                  <li><a href="" class="split_line split_word">Overview</a></li>
+                  <li><a href="" class="split_line split_word">Services</a></li>
+                  <li><a href="" class="split_line split_word">Team</a></li>
+                  <li>
+                    <a href="" class="split_line split_word">Studio Infra</a>
+                    <ul class="depth_03">
+                      <li><a href="" class="split_line split_word">- Hanam</a></li>
+                      <li><a href="" class="split_line split_word">- Paju</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="" class="split_line split_word">Works</a>
+              </li>
+              <li>
+                <a href="" class="split_line split_word">News</a>
+              </li>
+              <li>
+                <a href="" class="split_line split_word">Careers</a>
+                <ul class="depth_02">
+                  <li><a href="" class="split_line split_word">Overview</a></li>
+                  <li><a href="" class="split_line split_word">Hiring</a></li>
+                  <li><a href="" class="split_line split_word">Job Application</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="" class="split_line split_word">Contact</a>
+              </li>
+            </ul>
+          </div>
+  
+          <!-- address -->
+          <address>
+            <div class="row">
+              <strong class="split_line split_word">CONTACTS</strong>
+              <a href="" class="split_line split_word">contact@vacorp.co.kr</a>
+              <p class="split_line split_word">+82 02-547-8880</p>
+            </div>
+            <div class="row">
+              <strong class="split_line split_word">OFFICE</strong>
+              <p class="split_line split_word">서울시 강남구 언주로 149길 17 (논현동)</p>
+            </div>
+            <div class="row">
+              <strong class="split_line split_word">WANT TO WORK WITH ME?</strong>
+              <a href="" class="split_line split_word">Get in Touch</a>
+            </div>
+          </address>
+        </div>
+      </div>
+      <!-- menu_bg -->
+      <div class="menu_bg"></div>
+    </div>
+  </header>
+  
+  <!-- cursor -->
+  <div class="cursor">
+    <div class="cursor_circle"></div>
+    <span class="cursor_drag" aria-hidden="true">DRAG</span>
+    <div class="cursor_arw">
+      <span class="btn_left">
+        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+      </span>
+      <span class="btn_right">
+        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+      </span>
+    </div>
+  </div>
+  <div id="main_scrollbar" data-scrollbar>    
+    <!-- main -->
+    <main>      
+      <!-- visual -->
+      <div class="sc_visual">      
+        <div class="swiper">        
+          <div class="swiper-wrapper">
+            <div class="item swiper-slide">
+              <div class="pc_area">
+                <video autoplay muted loop>
+                  <source src="./imgs/main/visual_01_pc.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="mob_area">
+                <img src="./imgs/main/visual_01_mob.png" alt="">          
+              </div>
+              <div class="txt_area">
+                <a href="">
+                  <h2>Interview I Park Chan-wook, Director</h2>
+                  
+                  <span>Film / Drama</span>
+                </a>
+              </div>
+            </div>
+            <div class="item swiper-slide">
+              <div class="pc_area">
+                <video autoplay muted loop>
+                  <source src="./imgs/main/visual_02_pc.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="mob_area">
+                <img src="./imgs/main/visual_02_mob.jpg" alt="">          
+              </div>
+              <div class="txt_area">
+                <a href="">
+                  <h2>LATT 22SS CAMPAIGN I "LATT UNIVERSE"</h2>
+                  
+                  <span>Brand / Commercial Video</span>
+                </a>
+              </div>
+            </div>
+            <div class="item swiper-slide">
+              <div class="pc_area">
+                <video autoplay muted loop>
+                  <source src="./imgs/main/visual_03_pc.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="mob_area">
+                <img src="./imgs/main/visual_03_mob.jpg" alt="">          
+              </div>
+              <div class="txt_area">
+                <a href="">
+                  <h2>PUBG ESPORTS I Battle Ground</h2>
+                  
+                  <span>Brand / Commercial Video</span>
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="control_area">
+            <div class="btn_arw btn_prev">
+              <span class="ico_arw ico_prev"></span>
+            </div>
+            <div class="btn_arw btn_next">
+              <span class="ico_arw ico_next"></span>
+            </div>
+            <div class="pagination"></div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- inr -->
+      <div class="inr">
+        <!-- sc_company -->
+        <section class="sc_company">        
+          <!-- sc_tit -->
+          <h2 class="sc_tit">Our Company</h2>
+          <!-- sc_desc -->
+          <p class="sc_desc split_word split_line">
+            VA Corporation is a one-stop metaverse
+            platform company that offers unlimited
+            creative possibilities through virtual
+            reality.
+          </p>
+          <!-- text_area -->
+          <div class="text_area">
+            <div class="col">
+              <p class="split_word">
+                원스톱-메타버스 플랫폼 기업으로, 가상현실을 통해 무한한 크리에이티브의
+                가능성을 제시합니다. 아시아 최대의 스튜디오 인프라와 기술을 바탕으로 최상의
+                메타버스 콘텐츠 제작 환경을 제공합니다. 현실의 한계를 뛰어넘는 새로운 경험을
+                통해 다양한 비즈니스 영역에서 새로운 가치를 창조합니다.
+              </p>
+            </div>
+            <div class="col">
+              <p class="split_word">
+                VA Corporation provides the best condition for content production
+                and all creators with the largest virtual production studio complex in
+                Asia and the new technologies. We create values in various businesses
+                with the chance to experience the go beyond reality
+              </p>
+            </div>
+          </div>
+          <!-- link_more -->
+          <a href="" class="link_more" data-hover = "VIEW OUR STROY">
+            <span>VIEW OUR STROY</span>
+          </a>
+        </section>
+  
+        <!-- sc_services -->
+        <section class="sc_services">
+          <!-- sc_tit -->
+          <h2 class="sc_tit">Our Services</h2>
+          
+          <!-- list -->
+          <div class="list_area">
+            <ul class="list list_gsap">
+              <li><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/service_01.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>Contents Development</h3>
+                </div>
+              </a></li>
+              <li><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/service_02.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>XR Live Contents</h3>
+                </div>
+              </a></li>
+              <li><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/service_03.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>Conference</h3>
+                </div>
+              </a></li>
+              <li><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/service_04.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>Performance</h3>
+                </div>
+              </a></li>
+              <li><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/service_05.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>Virtual Human</h3>
+                </div>
+              </a></li>
+              <li><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/service_06.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>Space | Exhibition</h3>
+                </div>
+              </a></li>
+              <li><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/service_07.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>Advertising</h3>
+                </div>
+              </a></li>
+              <li><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/service_08.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>BX. UX. UI</h3>
+                </div>
+              </a></li>
+            </ul>
+          </div>
+        </section>
+  
+        <!-- sc_infra -->
+        <section class="sc_infra">
+          <!-- sc_tit -->
+          <h2 class="sc_tit">Our Infra</h2>
+  
+          <!-- list -->
+          <div class="list_area">
+            <ul class="list">
+              <li class="w66"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/intro_01.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>VA Studio | HANAM</h3>
+                  <p>
+                    강남에서 30분 이내 위치한 입지<br>
+                    최신 시설의 종합 스튜디오 (VP/일반)
+                  </p>
+                </div>
+              </a></li>
+              <li class="w33"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/intro_02.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>Metaverse</h3>
+                  <p>
+                    아시아 최대 규모의 인프라와 기술력을 활용하여 한계를 뛰어넘는 Virtual 환경 구현
+                  </p>
+                </div>
+              </a></li>
+              <li class="w25"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/intro_03.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>AI Contents</h3>
+                  <p>
+                    디지털휴먼/캐릭터, IP 라이브러리의 이미지  기반 3D스테이지 구현
+                  </p>
+                </div>
+              </a></li>
+              <li class="w25"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/intro_04.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>IP Library</h3>
+                  <p>
+                    게임 및 영상 IP를 모바일 기반의 다양한  메타버스 콘텐츠로 제작
+                  </p>
+                </div>
+              </a></li>
+              <li class="w50"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/intro_05.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>Contents Development Distribution</h3>
+                  <p>
+                    Virtual Production을 활용한 다양한 콘텐츠를 기획&제작<br>
+                    넷플릭스등 글로벌 OTT 플랫폼에 투자와 배급
+                  </p>
+                </div>
+              </a></li>
+            </ul>    
+          </div>
+        </section>
+      </div>
+  
+      <!-- team -->
+      <section class="sc_team">
+        <div class="inr">
+          <!-- sc_tit -->
+          <h2 class="sc_tit">Our Expert Team</h2>
+          <h3 class="sc_sub_tit split_word split_line">Work with Superheroes</h3>
+    
+          <!-- list -->
+          <div class="list_area">
+            <ul class="list list_gsap">
+              <li>
+                <div class="img_area">
+                  <img src="./imgs/main/team_acmaker.png" alt="">
+                </div>
+                <div class="text_area">
+                  <p>영화/드라마 투자 &middot; 제작 &middot; 배급</p>
+                </div>
+              </li>
+              <li>
+                <div class="img_area">
+                  <img src="./imgs/main/team_andmarq.png" alt="">
+                </div>
+                <div class="text_area">
+                  <p>종합 엔터테이먼트</p>
+                </div>
+              </li>
+              <li>
+                <div class="img_area">
+                  <img src="./imgs/main/team_focus.png" alt="">
+                </div>
+                <div class="text_area">
+                  <p>영화/드라마 프로덕션</p>
+                </div>
+              </li>
+              <li>
+                <div class="img_area">
+                  <img src="./imgs/main/team_saram.png" alt="">
+                </div>
+                <div class="text_area">
+                  <p>종합 엔터테이먼트</p>
+                </div>
+              </li>
+              <li>
+                <div class="img_area">
+                  <img src="./imgs/main/team_cosmicray.png" alt="">
+                </div>
+                <div class="text_area">
+                  <p>모션 그래픽</p>
+                </div>
+              </li>
+              <li>
+                <div class="img_area">
+                  <img src="./imgs/main/team_huskyfox.png" alt="">
+                </div>
+                <div class="text_area">
+                  <p>종합 브랜딩</p>
+                </div>
+              </li>
+              <li>
+                <div class="img_area">
+                  <img src="./imgs/main/team_marswalker.png" alt="">
+                </div>
+                <div class="text_area">
+                  <p>종합 광고대행사</p>
+                </div>
+              </li>
+              <li>
+                <div class="img_area">
+                  <img src="./imgs/main/team_mofac.png" alt="">
+                </div>
+                <div class="text_area">
+                  <p>Virtual 프로덕션</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="bg">
+          <video autoplay muted loop>
+            <source src="./imgs/main/composition.mp4">
+          </video>
+        </div>
+      </section>
+  
+      <!-- inr -->
+      <div class="inr">
+        <!-- sc_portfolio -->
+        <section class="sc_portfolio">
+          <!-- sc_tit -->
+          <h2 class="sc_tit">Portfolio</h2>
+          <h3 class="sc_sub_tit split_word split_line">Recent Works</h3>
+  
+          <!-- list -->     
+          <div class="list_area">
+            <ul class="list grid list_gsap">
+              <li class="grid-item"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/wark_01.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h4>Interview I Park Chan-wook, Director</h4>
+                  <p>
+                    <span>FILM / DRAMA</span>
+                    <span class="overlay">EXPLORE PROJECT</span>
+                  </p>
+                </div>
+              </a></li>
+              <li class="grid-item"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/wark_02.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h4>Making Film I Mizuno Golf Apparel Korea 2022 S/S</h4>
+                  <p>
+                    <span>Photography</span>
+                    <span class="overlay">EXPLORE PROJECT</span>
+                  </p>
+                </div>
+              </a></li>
+              <li class="grid-item"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/wark_03.jpg" alt="">
+                </div>
+                <div class="text_area">
+                  <h4>Van:D</h4>
+                  <p>
+                    <span>VIRTUAL / AI HUMAN</span>
+                    <span class="overlay">EXPLORE PROJECT</span>
+                  </p>
+                </div>
+              </a></li>
+              <li class="grid-item"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/wark_04.jpg" alt="">
+                </div>
+                <div class="text_area">
+                  <h4>LATT 22SS CAMPAIGN I "LATT UNIVERSE"</h4>
+                  <p>
+                    <span>BRAND / COMMERCIAL VIDEO</span>
+                    <span class="overlay">EXPLORE PROJECT</span>
+                  </p>
+                </div>
+              </a></li>
+              <li class="grid-item"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/wark_05.jpg" alt="">
+                </div>
+                <div class="text_area">
+                  <h4>Na Hoon-A I "Change" MV</h4>
+                  <p>
+                    <span>PERFORMANCE</span>
+                    <span class="overlay">EXPLORE PROJECT</span>
+                  </p>
+                </div>
+              </a></li>
+              <li class="grid-item"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/wark_06.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h4>KBS Virtual GAYO TOP 10</h4>
+                  <p>
+                    <span>PERFORMANCE</span>
+                    <span class="overlay">EXPLORE PROJECT</span>
+                  </p>
+                </div>
+              </a></li>
+            </ul>
+          </div>   
+        </section>
+  
+        <!-- sc_news -->
+        <section class="sc_news">
+          <!-- sc_tit -->
+          <h2 class="sc_tit">News</h2>
+  
+          <!-- list -->
+          <div class="list_area">
+            <ul class="list grid list_gsap">
+              <li class="grid-item"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/news_01.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>"현실이랑 다른 게 뭐야?"... 카카오·디즈니+도 버추얼 프로덕션에 뛰어든다</h3>
+                  <span>2022. 04. 06</span>
+                </div>
+              </a></li>
+              <li class="grid-item"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/news_02.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>브이에이코퍼레이션 버추얼 휴먼 ‘반디’, 앤드마크와 전속계약 체결</h3>
+                  <span>2022. 04. 01</span>
+                </div>
+              </a></li>
+              <li class="grid-item"><a href="">
+                <div class="img_area">
+                  <img src="./imgs/main/news_03.png" alt="">
+                </div>
+                <div class="text_area">
+                  <h3>브이에이코퍼레이션, 버추얼 프로덕션으로 미지의 임진각 완벽 구현 …경기도와 함께한 버추얼 공연 ‘평화로 꽃이 피다’ 성료</h3>
+                  <span>2022. 03. 31</span>
+                </div>
+              </a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+  
+      <!-- board -->
+      <div class="board_area">
+        <!-- sc_careers -->
+        <section class="sc_careers col">
+          <div class="text_area">
+            <a href="">
+              <h2 class="sc_tit">Careers</h2>
+              <p class="split_word split_line">Join Our Team</p>
+              <div class="link_area">
+                <span class="more_area">
+                  <span class="line"></span>
+                  <span class="more split_word split_line">MORE</span>
+                  <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+                </span>
+                <span class="overlay">VIEW CAREERS</span>
+              </div>
+            </a>
+          </div>
+        </section>
+  
+        <!-- sc_contact -->
+        <section class="sc_contact col">
+          <div class="text_area">
+            <a href="">
+              <h2 class="sc_tit">Contact</h2>
+              <p class="split_word split_line">We will respond shortly</p>
+              <div class="link_area">
+                <span class="more_area">
+                  <span class="line"></span>
+                  <span class="more split_word split_line">MORE</span>
+                  <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+                </span>
+                <span class="overlay">GET IN TOUCH</span>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>  
+    </main>
+    <!-- footer -->
+    <footer>    
+      <div class="inr">
+        <div class="f_wrap">
+          <!-- row -->
+          <div class="row">
+            <!-- address -->
+            <div class="col">
+              <div class="address_area">
+                <strong>Innovate The Future of Content Production</strong>
+                <address>
+                  <p>
+                    <span class="ad_tit">대표자</span>
+                    <span class="ad_desc">김동언</span>
+                  </p>
+                  <p>
+                    <span class="ad_tit">이메일</span>
+                    <span class="ad_desc">contact@vacorp.co.kr</span>
+                  </p>
+                  <p>
+                    <span class="ad_tit">주소</span>
+                    <span class="ad_desc">서울시 강남구 언주로 149길 17 (논현동)</span>
+                  </p>
+                  <p>
+                    <span class="ad_tit">사업자등록번호</span>
+                    <span class="ad_desc">503-86-20023</span>
+                  </p>
+                </address>
+                <a href="" class="link_down">
+                  <span>COMPANY BRIEF</span>
+                  <span class="overlay">DOWNLOAD</span>
+                </a>
+              </div>
+            </div>
+            <!-- f_menu -->
+            <div class="col">
+              <div class="f_menu">
+                <ul class="depth_01">
+                  <li>
+                    <a href="">ABOUT</a>
+                    <ul class="depth_02">
+                      <li><a href="">Overview</a></li>
+                      <li><a href="">Services</a></li>
+                      <li><a href="">Team</a></li>
+                      <li><a href="">Studio Infra</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="">WORKS</a>
+                  </li>
+                  <li>
+                    <a href="">NEWS</a>
+                  </li>
+                  <li>
+                    <a href="">CAREERS</a>
+                    <ul class="depth_02">
+                      <li><a href="">Overview</a></li>
+                      <li><a href="">Hiring</a></li>
+                      <li><a href="">Job Application</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- f_logo_area -->
+          <div class="f_logo_area">
+            <!-- f_logo -->
+            <h2 class="f_logo"><a href="">
+              <span class="blind">VA Corporation</span>
+            </a></h2>
+    
+            <!-- f_sns -->
+            <div class="f_sns">
+              <a href="" class="link_ist">            
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                <span class="blind">인스타그램</span>
+              </a>
+              <a href="" class="link_ytb">
+                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                <span class="blind">유튜브</span>
+              </a>
+            </div>
+    
+            <!-- copy -->
+            <div class="copy_area">
+              <p class="copy">
+                &copy; 2022 VA Corporation. All Rights Reserved.
+              </p>
+            </div>
+          </div>      
+        </div>
+      </div>
+    </footer> 
+
+    <!-- scroll -->
+    <div class="scrollbar-track scrollbar-track-x">
+        <div class="scrollbar-thumb scrollbar-thumb-x"></div>
+    </div>
+    <div class="scrollbar-track scrollbar-track-y">
+        <div class="scrollbar-thumb scrollbar-thumb-y"></div>
+    </div>
+  </div>
+  <!-- js -->
+  <script defer src="./js/jquery-1.12.4.min.js"></script>  
+  
+  <!-- gsap -->
+  <script defer src="./js/gsap.min.js"></script>
+  <script defer src="./js/ScrollTrigger.min.js"></script>
+  <script defer src="./js/splitText.js"></script>  
+
+  <!-- swiper -->
+  <script defer src="./js/swiper-bundle.min.js"></script>
+
+  <!-- smooth scrollbar -->
+  <script defer src="./js/smooth-scrollbar.js"></script>
+
+  <!-- masonry -->
+  <script defer src="./js/masonry.pkgd.min.js"></script>
+
+  <!-- script -->
+  <script defer src="./js/main.js"></script>  
+</body>
+</html>

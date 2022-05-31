@@ -1,0 +1,41 @@
+@import "./var";
+
+@mixin mobile-small {
+  @media (max-width: #{$max-mobile-small-width}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$max-mobile-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$max-tablet-width}) {
+    @content;
+  }
+}
+
+@mixin pc {
+  @media (max-width: #{$max-pc-width}) {
+    @content;
+  }
+}
+
+
+@mixin el($line : 1, $lh: inherit) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: $lh;
+  
+  @if ($line == 1) {
+    white-space: nowrap; 
+  } @else if($line > 1){
+    max-height: $lh * $line;
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;    
+  }
+}
