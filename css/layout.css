@@ -821,7 +821,7 @@ footer .f_logo_area .f_logo a::after {
   background: url(../imgs/logo_wt.png) no-repeat center/100%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   footer .f_logo_area .f_logo a::after {
     width: 110px;
     height: 27px;

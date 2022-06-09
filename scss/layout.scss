@@ -795,7 +795,7 @@ footer{
           height: 35px;
           background: url(../imgs/logo_wt.png) no-repeat center / 100%;
   
-          @include mobile-small {
+          @include mobile-s {
             width: 110px;
             height: 27px;
           }

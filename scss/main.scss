@@ -92,7 +92,7 @@
           @include tablet{
             font-size: 38px;
           }
-          @include mobile-small{
+          @include mobile-s{
             font-size: 24px;
           }
         }
@@ -280,7 +280,7 @@ section{
     @include tablet{
       font-size: 38px;
     }
-    @include mobile-small{
+    @include mobile-s{
       font-size: 24px;
     }
     
@@ -309,7 +309,7 @@ section{
       &:nth-child(2){
         display: block;
         
-        @include mobile-small{
+        @include mobile-s{
           display: none;
         }
       }
@@ -618,7 +618,7 @@ section{
     @include tablet{
       font-size: 38px;
     }
-    @include mobile-small{
+    @include mobile-s{
       font-size: 24px;
     }
   }
@@ -630,7 +630,7 @@ section{
     @include tablet{
       padding: 48px 0;
     }
-    @include mobile-small{
+    @include mobile-s{
       padding: 36px 0;
     }
     .list{
@@ -787,7 +787,7 @@ section{
     @include tablet{
       font-size: 38px;
     }
-    @include mobile-small{
+    @include mobile-s{
       font-size: 24px;
     }   
   }
@@ -1074,7 +1074,7 @@ section{
         @include mobile{
           font-size: 28px;
         }
-        @include mobile-small{
+        @include mobile-s{
           font-size: 24px;
         }
       }

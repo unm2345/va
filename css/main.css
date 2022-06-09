@@ -100,7 +100,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   .sc_visual .item .txt_area a h2 {
     font-size: 24px;
   }
@@ -305,7 +305,7 @@ section {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   .sc_company .sc_desc {
     font-size: 24px;
   }
@@ -341,7 +341,7 @@ section {
   display: block;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   .sc_company .text_area .col:nth-child(2) {
     display: none;
   }
@@ -638,7 +638,7 @@ section {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   .sc_team .sc_sub_tit {
     font-size: 24px;
   }
@@ -655,7 +655,7 @@ section {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   .sc_team .list_area {
     padding: 36px 0;
   }
@@ -826,7 +826,7 @@ section {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   .sc_portfolio .sc_sub_tit {
     font-size: 24px;
   }
@@ -1128,7 +1128,7 @@ section {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
   .board_area .text_area a p {
     font-size: 24px;
   }
