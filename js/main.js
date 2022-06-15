@@ -152,6 +152,7 @@ $(function () {
   })
 
   $(".btn_open_menu").mousemove(function(e){
+    console.log(e.offsetX)
     var x = ((-$(this).width() / 2) + e.offsetX) *0.6;    
     var y = ((-$(this).height() / 2) + e.offsetY) *0.6;
     gsap.to(".btn_open_menu_wrap", {
@@ -212,7 +213,7 @@ $(function () {
 
   // portfolio
   $(".sc_portfolio .list a").hover(function(){
-    var target = $(this).find(".overlay").get(0);
+    var target = $(this).find(".overlay");
     gsap.set(target, {
       transform: "translateY(100%)"
     })
@@ -222,7 +223,7 @@ $(function () {
       transform: "translateY(0)"
     })
   }, function(){
-    var target = $(this).find(".overlay").get(0);
+    var target = $(this).find(".overlay");
     gsap.to(target, {
       duration : 0.1,
       transform: "translateY(-100%)"
@@ -231,9 +232,9 @@ $(function () {
 
   // board_area
   $(".board_area .text_area a").hover(function(){
-    var target_1 = $(this).find(".more").get(0);
-    var target_2 = $(this).find(".overlay").get(0);
-    var line = $(this).find(".line").get(0);
+    var target_1 = $(this).find(".more");
+    var target_2 = $(this).find(".overlay");
+    var line = $(this).find(".line");
 
     gsap.set(line, {
       transform: "translate(-150%, -50%)",
@@ -261,9 +262,9 @@ $(function () {
       transform: "translateY(0)"
     })
   }, function(){
-    var target_1 = $(this).find(".more").get(0);
-    var target_2 = $(this).find(".overlay").get(0);
-    var line = $(this).find(".line").get(0);
+    var target_1 = $(this).find(".more");
+    var target_2 = $(this).find(".overlay");
+    var line = $(this).find(".line");
 
     gsap.set(line, {
       transform: "translate(-50%, -50%)",
